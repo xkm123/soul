@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "soul\\": "src/"
+            "Soul\\": "src/"
         },
         "files": [
         ]
