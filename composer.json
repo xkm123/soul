@@ -15,10 +15,10 @@
     ],
     "require": {
         "php": "^5.5.9|^7.0",
-        "laravel/framework": "5.7.*",
         "illuminate/support": "^5.2|^6|^7"
     },
     "require-dev": {
+        "illuminate/console": "^5.2|^6|^7"
     },
     "autoload": {
         "psr-4": {
