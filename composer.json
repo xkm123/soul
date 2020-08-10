@@ -28,10 +28,18 @@
         ]
     },
     "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        },
         "laravel": {
             "providers": [
                 "soul\\Providers\\LaravelServiceProvider"
             ]
         }
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
