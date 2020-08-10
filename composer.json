@@ -1,0 +1,37 @@
+{
+    "name": "meng/soul",
+    "description": "soul gateway register",
+    "type": "library",
+    "license": "Apache",
+    "keywords": [
+        "soul",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "邢可盟",
+            "email": "623279281@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0",
+        "laravel/framework": "5.7.*",
+        "illuminate/support": "^5.2|^6|^7"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "soul\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "soul\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
